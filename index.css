@@ -17,15 +17,18 @@ body{
     background-color: white;
     border-radius: 18px;
     flex-direction: column;
+    max-width: 100%;
 }
 .img-banner{
     width: 375px;
+    max-width:100%
 }
 .img-banner > img {
     width: 375px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     margin-bottom: 0.5em;
+    max-width: 100%
 }
 .txt{
     display: flex;
@@ -34,6 +37,7 @@ body{
     justify-content: center;
     padding: 20px;
     width: 100%;
+    max-width:100%;
 }
 .txt > h1{
     font-weight: 900;
@@ -54,6 +58,7 @@ body{
     width: 80%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
+max-width:80%
 }
 .price-sec > span {
     display: flex;
